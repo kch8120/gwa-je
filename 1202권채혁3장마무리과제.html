@@ -28,11 +28,35 @@
     </details>
     </nav>
     <section style="background-color: gray";>
-        <p><input type="text" value=""></p>
+        <p><input type="text" value="">
+        <input type="date" value="">
+        <button>눌러보세요</button>
+        </p>
     </section>
-    <aside style="border:1px";>ff</aside>
+    <aside style="border:1px";>
+        <p>0<input type="range" min="0" max="100" list="temperatures">100
+    <datalist id = "temperatures">
+        <option value = "10" label="Low">
+        <option value = "50" label="Medium">
+        <option value = "90" label="High">
+    </datalist></p>
+    </aside>
     <footer style="background-color: beige;">
-
+        <p>짜장면<input type="radio" name="china" value="1">
+        짬뽕<input type="radio" name="china" value="2">
+        탕수육<input type="radio" name="china" value="3">
+        <form>
+    초밥<input type="checkbox" value="1"checked><br>
+    라멘<input type="checkbox" value="2"><br>
+    소바<input type="checkbox" value="3"><br>
+            <select name="korean"
+                multiple>
+                <option value="1" selected>비빔밥</option>
+                <option value="2">불고기</option>
+                <option value="3">삼계탕></option>
+            </select>
+        </form>
+        </p>
     </footer>
 </body>
 </html>
